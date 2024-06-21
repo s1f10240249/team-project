@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="UTF-8">
-        <title>チームプロジェクト</title>
-        <link rel="stylesheet" href="css/index.css">
-    </head>
-    <body>
-        <h1>あああ</h1>
-        <p class="red">内容はこれから書きます</p>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>リンクのサンプル</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: flex-start; /* 変更点: flex-end から flex-start へ */
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
+        .nav {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start; /* 変更点: flex-end から flex-start へ */
+            margin-left: 20px;
+        }
+        .nav a {
+            text-decoration: none;
+            color: rgb(82, 71, 237);
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .nav a:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="https://example.com/home">ホーム</a>
+        <a href="file:///C:/Users/iniad/Documents/GitHub/team-project/osaka.html">大阪</a>
+        <a href="file:///C:/Users/iniad/Documents/GitHub/team-project/Tokyo.html">東京</a>
+        <a href="file:///C:/Users/iniad/Documents/GitHub/team-project/Aichi.html">愛知</a>
+    </div>
+</body>
 </html>
