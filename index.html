@@ -1,41 +1,23 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>リンクのサンプル</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: flex-start;
-            margin: 0;
-            padding: 0;
-            height: 50vh;
-        }
-        .nav {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-start; 
-            margin-left: 20px;
-        }
-        .nav a {
-            text-decoration: none;
-            color: rgb(82, 71, 237);
-            font-size: 18px;
-            margin: 10px 0;
-        }
-        .nav a:hover {
-            color: red;
-        }
-    </style>
-</head>
-<body>
-    <div class="nav">
-        <a href="https://example.com/home">ホーム</a>
-        <a href="file:///C:/Users/iniad/Documents/GitHub/team-project/osaka.html">大阪</a>
-        <a href="file:///C:/Users/iniad/Documents/GitHub/team-project/Tokyo.html">東京</a>
-        <a href="file:///C:/Users/iniad/Documents/GitHub/team-project/Aichi.html">愛知</a>
-    </div>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>東京</title>
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <div class="sidebar">
+            <h2>日本観光地</h2>
+            <ul>
+                <li><a href="http://127.0.0.1:3000/index.html">ホーム</a></li>
+                <li><a href="http://127.0.0.1:3000/osaka.html">大阪府</a></li>
+                <li><a href="http://127.0.0.1:3000/Tokyo.html">東京都</a></li>
+                <li><a href="http://127.0.0.1:3000/Aichi.html">愛知県</a></li>
+            </ul>
+        </div>
+        <div class="content">
+        <h1>ホーム</h1>
+        <p></p>
+        </div>
+    </body>
 </html>
